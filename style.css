@@ -1,0 +1,179 @@
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(253, 251, 106, 0.616);
+}
+
+.page {
+    background-color: rgb(255, 243, 245);
+    margin: auto;
+    margin-top: 3%;
+    height: 600px;
+    width: 1000px;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0.1px 0.1px 10px 0.001px gainsboro;
+}
+
+.navbar {
+    width: 950px;
+    display: flex;
+    margin: auto;
+    background: rgb(255, 243, 245);
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.nav-left {
+    font-weight: 400;
+    display: flex;
+}
+
+.logo {
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.nav-mid {
+    width: 500px;
+    text-align: center;
+}
+
+.nav-mid a {
+    margin-left: 25px;
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+
+.nav-right {
+    text-align: center;
+    position: relative;
+    margin-top: -5px;
+}
+
+.nav-right a {
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+
+.nav-right button {
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(79, 79, 243);
+    border: none;
+    border-radius: 4px;
+}
+
+/* main */
+
+.main {
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.main-first {
+    width: 50%;
+}
+
+.main-h3 h3 {
+    font-size: 40px;
+    font-weight: 1000;
+    line-height:47px;
+}
+
+.main-para {
+    width: 390px;
+}
+
+.main-para p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-input input,
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-input input {
+    width: 250px;
+    height: 50px;
+}
+
+.main-input button {
+    width: 115px;
+    /* height: 50px; */
+    color: white;
+    background-color: rgb(79, 79, 243);
+
+}
+
+.main-note {
+    display: flex;
+}
+
+.main-note p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-note img {
+    margin-right: 8px;
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.main-sec {
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.main-sec img {
+    width: 400px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-media{
+    margin-left: 15px;
+}
+.footer-media a {
+    text-decoration: none;
+    color:rgb(97, 97, 97) ;
+    margin-left: 20px;
+}
+.footer-about{
+    margin-right: 50px;
+    display: flex;
+}
+.footer-about img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.footer-note a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
